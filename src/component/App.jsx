@@ -1,4 +1,4 @@
-import "../../src/Index.css";
+import "../Index.css";
 import Weather from "./Weather";
 import WeatherError from "./Errors/WeatherError";
 import { Switch, Route, Router } from "react-router-dom";
