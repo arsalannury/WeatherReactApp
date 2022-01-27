@@ -28,7 +28,7 @@ function Weather() {
     isLoading(false);
     const response = await axios
       .get(
-        `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`
+        `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}/`
       )
       .catch((errorr) => {
         setValue("");
@@ -40,7 +40,7 @@ function Weather() {
     setDone(false);
     setDisable(true);
     getIcon(
-      `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+      `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png/`
     );
     toast.success(`${response.data.name} is Availiable`);
     setValue("");
