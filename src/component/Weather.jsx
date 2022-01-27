@@ -60,6 +60,7 @@ function Weather() {
           <Box className={classes.box_icon}>
             <img src={icon} alt="icon_weather" className={classes.icon} />
             <a
+              rel="noreferrer"
               target="_blank"
               href={`https://www.google.com/maps/place/${currents.coord.lat},${currents.coord.lon}`}
               className={classes.map_href}
