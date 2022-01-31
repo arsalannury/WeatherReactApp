@@ -28,7 +28,7 @@ function Weather() {
     isLoading(false);
     const response = await axios
       .get(
-        `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`
+        `api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`
       )
       .catch((errorr) => {
         setValue("");
