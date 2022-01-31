@@ -218,4 +218,7 @@ export const useWeatherStyle = makeStyles(() => ({
     direction: "ltr",
     borderLeft: "1px solid #fff",
   },
+  acordion_p:{
+    fontSize: '.8em !important'
+  }
 }));
