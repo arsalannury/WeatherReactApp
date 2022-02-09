@@ -23,7 +23,7 @@ function WeatherError() {
               Your Request is Faild
             </Typography>
             <Typography className={classes.paragraph}>
-              It means there is no this city for show weather information
+              It means there isn't any information
             </Typography>
             <Button
               variant="contained"
